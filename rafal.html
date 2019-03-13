@@ -1,0 +1,146 @@
+<!-- 
+    Układ 16:9
+    Ma być podobny (nie pixel w pixel)
+    Ma być responsywny (dostosowoywać się do wysokości przeglądarki)
+
+    ZŁOTE ZASADY
+    - Zrób tak jak potrafisz i tyle ile potrafisz
+    - Próbuj/testuj/sprawdzaj co by było. Takie próbowanie to najważniejsze cechy programisty
+    - Nie przeskakuj ćwiczenia. 
+ -->
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A dream about old Japan</title>
+    <style>
+        .picture {
+            width: 80vh;
+            height: 45vh;
+            overflow: hidden;
+            /* margin: 50% auto; */
+            top: calc(50% - 45vh/2);
+            left: calc(50% - 80vh/2);
+            background-color: burlywood;
+            /* position: relative; */
+            position: absolute;
+        }
+
+
+        img {
+
+            width: 100%;
+            position: absolute;
+            /* overflow: hidden; */
+        }
+
+        img:nth-of-type(1) {
+            left: 0;
+            top: 20px;
+            /* height: 80px; */
+            /* width: 80px; */
+        }
+
+        img:nth-of-type(2) {
+            left: 0;
+            top: 60px;
+            /* height: 80px; */
+            /* width: 80px; */
+        }
+
+        img:nth-of-type(3) {
+            left: 0;
+            top: 100px;
+            /* height: 80px; */
+            /* width: 80px; */
+        }
+
+        img:nth-of-type(4) {
+            left: 0;
+            top: 90px;
+            /* height: 80px; */
+            /* width: 80px; */
+        }
+
+        img:nth-of-type(5) {
+            left: 0;
+            top: 110px;
+            /* height: 80px; */
+            /* width: 80px; */
+        }
+
+        img:nth-of-type(6) {
+            left: 0;
+            top: 215px;
+            /* height: 80px; */
+            /* width: 80px; */
+        }
+
+        img:nth-of-type(7) {
+            left: 40px;
+            top: 10px;
+            height: 50px;
+            width: 50px;
+        }
+
+        img:nth-of-type(8) {
+            left: -30px;
+            top: 20px;
+            height: 20px;
+            width: 200px;
+        }
+
+        img:nth-of-type(9) {
+            right: 0;
+            top: 20px;
+            height: 40px;
+            width: 300px;
+        }
+
+        img:nth-of-type(10) {
+            right: 0;
+            top: 50px;
+            height: 150px;
+            width: 220px;
+        }
+
+        img:nth-of-type(11) {
+            left: 30px;
+            top: 180px;
+            height: 100px;
+            width: 40px;
+        }
+
+        p {
+            color: aqua;
+            top: 80%;
+            right: 5%;
+            font-family: sans-serif;
+            z-index: 3;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="picture">
+        <!-- img[src=img/japan$.png]*11 -->
+        <img src="img/japan1.png" alt="">
+        <img src="img/japan2.png" alt="">
+        <img src="img/japan3.png" alt="">
+        <img src="img/japan4.png" alt="">
+        <img src="img/japan5.png" alt="">
+        <img src="img/japan6.png" alt="">
+        <img src="img/japan7.png" alt="">
+        <img src="img/japan8.png" alt="">
+        <img src="img/japan9.png" alt="">
+        <img src="img/japan10.png" alt="">
+        <img src="img/japan11.png" alt="">
+        <p>RafalMax12</p>
+    </div>
+</body>
+
+</html>
